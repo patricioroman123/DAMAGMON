@@ -1,13 +1,15 @@
 package movement;
 
+import DamageCalculator.DamageFormula;
 import pokemon.Pokemon;
 
-public abstract class Movement {
+public class Movement {
     protected String name;
     protected Type type;
     protected Integer power;
+    protected DamageFormula formula;
 
-    public abstract float calculatePower(Pokemon attacker, Pokemon defender);
-
-    public abstract float calculateDamage(Pokemon attacker, Pokemon defender);
+    public String calculateDamage(Pokemon attacker, Pokemon defender, Movement movement) {
+        return formula.calculate(attacker, defender, movement);
+    }
 }

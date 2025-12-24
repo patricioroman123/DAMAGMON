@@ -1,0 +1,503 @@
+[
+    {
+        "name": "Bulbasaur",
+        "weight": 6.9,
+        "types": ["grass", "poison"],
+        "baseStats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "specialAttack": 65,
+            "specialDefense": 65,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Ivysaur",
+        "weight": 13.0,
+        "types": ["grass", "poison"],
+        "baseStats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "specialAttack": 80,
+            "specialDefense": 80,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Venusaur",
+        "weight": 100.0,
+        "types": ["grass", "poison"],
+        "baseStats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "specialAttack": 100,
+            "specialDefense": 100,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Charmander",
+        "weight": 8.5,
+        "types": ["fire"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "specialAttack": 60,
+            "specialDefense": 50,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Charmeleon",
+        "weight": 19.0,
+        "types": ["fire"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "specialAttack": 80,
+            "specialDefense": 65,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Charizard",
+        "weight": 90.5,
+        "types": ["fire", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "specialAttack": 109,
+            "specialDefense": 85,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Squirtle",
+        "weight": 9.0,
+        "types": ["water"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "specialAttack": 50,
+            "specialDefense": 64,
+            "speed": 43
+        }
+    },
+    {
+        "name": "Wartortle",
+        "weight": 22.5,
+        "types": ["water"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "specialAttack": 65,
+            "specialDefense": 80,
+            "speed": 58
+        }
+    },
+    {
+        "name": "Blastoise",
+        "weight": 85.5,
+        "types": ["water"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "specialAttack": 85,
+            "specialDefense": 105,
+            "speed": 78
+        }
+    },
+    {
+        "name": "Caterpie",
+        "weight": 2.9,
+        "types": ["bug"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "specialAttack": 20,
+            "specialDefense": 20,
+            "speed": 45
+        }
+    },
+    {
+        "name": "Metapod",
+        "weight": 9.9,
+        "types": ["bug"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "specialAttack": 25,
+            "specialDefense": 25,
+            "speed": 30
+        }
+    },
+    {
+        "name": "Butterfree",
+        "weight": 32.0,
+        "types": ["bug", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "specialAttack": 90,
+            "specialDefense": 80,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Weedle",
+        "weight": 3.2,
+        "types": ["bug", "poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "specialAttack": 20,
+            "specialDefense": 20,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Kakuna",
+        "weight": 10.0,
+        "types": ["bug", "poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "specialAttack": 25,
+            "specialDefense": 25,
+            "speed": 35
+        }
+    },
+    {
+        "name": "Beedrill",
+        "weight": 29.5,
+        "types": ["bug", "poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "specialAttack": 45,
+            "specialDefense": 80,
+            "speed": 75
+        }
+    },
+    {
+        "name": "Pidgey",
+        "weight": 1.8,
+        "types": ["normal", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "specialAttack": 35,
+            "specialDefense": 35,
+            "speed": 56
+        }
+    },
+    {
+        "name": "Pidgeotto",
+        "weight": 30.0,
+        "types": ["normal", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "specialAttack": 50,
+            "specialDefense": 50,
+            "speed": 71
+        }
+    },
+    {
+        "name": "Pidgeot",
+        "weight": 39.5,
+        "types": ["normal", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "specialAttack": 70,
+            "specialDefense": 70,
+            "speed": 101
+        }
+    },
+    {
+        "name": "Rattata",
+        "weight": 3.5,
+        "types": ["normal"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "specialAttack": 25,
+            "specialDefense": 35,
+            "speed": 72
+        }
+    },
+    {
+        "name": "Raticate",
+        "weight": 18.5,
+        "types": ["normal"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "specialAttack": 50,
+            "specialDefense": 70,
+            "speed": 97
+        }
+    },
+    {
+        "name": "Spearow",
+        "weight": 2.0,
+        "types": ["normal", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "specialAttack": 40,
+            "specialDefense": 54,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Fearow",
+        "weight": 38.0,
+        "types": ["normal", "flying"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "specialAttack": 61,
+            "specialDefense": 61,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Ekans",
+        "weight": 6.9,
+        "types": ["poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "specialAttack": 40,
+            "specialDefense": 54,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Arbok",
+        "weight": 65.0,
+        "types": ["poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 69,
+            "specialAttack": 65,
+            "specialDefense": 79,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Pikachu",
+        "weight": 6.0,
+        "types": ["electric"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "specialAttack": 50,
+            "specialDefense": 50,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Raichu",
+        "weight": 30.0,
+        "types": ["electric"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "specialAttack": 90,
+            "specialDefense": 80,
+            "speed": 110
+        }
+    },
+    {
+        "name": "Sandshrew",
+        "weight": 12.0,
+        "types": ["ground"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "specialAttack": 20,
+            "specialDefense": 30,
+            "speed": 40
+        }
+    },
+    {
+        "name": "Sandslash",
+        "weight": 29.5,
+        "types": ["ground"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "specialAttack": 45,
+            "specialDefense": 55,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Nidoran♀",
+        "weight": 7.0,
+        "types": ["poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "specialAttack": 40,
+            "specialDefense": 40,
+            "speed": 41
+        }
+    },
+    {
+        "name": "Nidorina",
+        "weight": 20.0,
+        "types": ["poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "specialAttack": 55,
+            "specialDefense": 55,
+            "speed": 56
+        }
+    },
+    {
+        "name": "Nidoqueen",
+        "weight": 60.0,
+        "types": ["poison", "ground"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "specialAttack": 75,
+            "specialDefense": 85,
+            "speed": 76
+        }
+    },
+    {
+        "name": "Nidoran♂",
+        "weight": 9.0,
+        "types": ["poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "specialAttack": 40,
+            "specialDefense": 40,
+            "speed": 50
+        }
+    },
+    {
+        "name": "Nidorino",
+        "weight": 19.5,
+        "types": ["poison"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "specialAttack": 55,
+            "specialDefense": 55,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Nidoking",
+        "weight": 62.0,
+        "types": ["poison", "ground"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "specialAttack": 85,
+            "specialDefense": 75,
+            "speed": 85
+        }
+    },
+    {
+        "name": "Clefairy",
+        "weight": 7.5,
+        "types": ["normal"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "specialAttack": 60,
+            "specialDefense": 65,
+            "speed": 35
+        }
+    },
+    {
+        "name": "Clefable",
+        "weight": 40.0,
+        "types": ["normal"],
+        "abilities": [],
+        "baseStats": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "specialAttack": 95,
+            "specialDefense": 90,
+            "speed": 60
+        }
+    }
+]

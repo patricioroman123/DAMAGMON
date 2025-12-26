@@ -7,5 +7,5 @@ public class BasePokemon {
     Float weight;
     List<String> types;
     List<Ability> abilities;
-    BaseStats baseStats;
+    Stats baseStats;
 }

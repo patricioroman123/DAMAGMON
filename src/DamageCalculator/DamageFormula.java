@@ -1,8 +1,8 @@
 package DamageCalculator;
 
 import movement.Movement;
-import pokemon.Pokemon;
+import pokemon.Stats;
 
 public abstract class DamageFormula {
-    public abstract String calculate(Pokemon attacker, Pokemon defender, Movement move);
+    public abstract double calculate(Stats attackerStats, Stats defenderStats, Integer level, Movement move);
 }

@@ -10,19 +10,19 @@ public class Movement {
     protected Integer power;
     protected DamageFormula formula;
 
+    public Integer getPower() {
+        return this.power;
+    }
+
     public String calculateDamage(Pokemon attacker, Pokemon defender) {
-        Stats attackerMinStats = attacker.calculateMinStats();
-        Stats attackerMaxStats = attacker.calculateMaxStats();
-        Stats defenderMinStats = defender.calculateMinStats();
-        Stats defenderMaxStats = defender.calculateMaxStats();
+        Stats attackerMinStats = attacker.getMinStats();
+        Stats attackerMaxStats = attacker.getMaxStats();
+        Stats defenderMinStats = defender.getMinStats();
+        Stats defenderMaxStats = defender.getMaxStats();
 
         double minDamage = formula.calculate(attackerMinStats, defenderMaxStats, attacker.getLevel(), this) * 0.85;
         double maxDamage = formula.calculate(attackerMaxStats, defenderMinStats, attacker.getLevel(), this);
         
         return minDamage + " - " + maxDamage;
-    }
-
-    public Integer getPower() {
-        return this.power;
     }
 }

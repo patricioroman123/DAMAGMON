@@ -1,6 +1,6 @@
 package pokemon;
 
-import java.util.*;
+import ability.Ability;
 
 public class Pokemon {
     BasePokemon base;
@@ -8,8 +8,8 @@ public class Pokemon {
     Ability ability;
     Nature nature;
     Status status;
-    List<Integer> ivs;
-    List<Integer> evs;
+    Stats minStats;
+    Stats maxStats;
 
     public Integer getLevel() {
         return this.level;
@@ -19,15 +19,11 @@ public class Pokemon {
         return this.nature;
     }
 
-    public Stats calculateMinStats() {
-        return new Stats(
-
-        );
+    public Stats getMinStats() {
+        return this.minStats;
     }
 
-    public Stats calculateMaxStats() {
-        return new Stats(
-
-        );
+    public Stats getMaxStats() {
+        return this.maxStats;
     }
 }

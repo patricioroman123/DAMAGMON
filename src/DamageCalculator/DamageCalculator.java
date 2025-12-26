@@ -1,4 +1,4 @@
-package program;
+package DamageCalculator;
 
 import pokemon.Pokemon;
 import movement.Movement;

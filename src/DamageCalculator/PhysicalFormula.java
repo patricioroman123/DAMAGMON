@@ -8,7 +8,7 @@ public class PhysicalFormula extends DamageFormula {
         Integer atStat = attackerStats.getAttackStat();
         Integer defStat = defenderStats.getDefenseStat();
         Integer power = move.getPower();
-        double res = (( ((2*attackerLevel/5)+2) * power * atStat/defStat ) / 50) + 2; 
+        double res = (( ((2*attackerLevel/5)+2) * power * atStat/defStat ) / 50) + 2;
         return res;
     }
 }
